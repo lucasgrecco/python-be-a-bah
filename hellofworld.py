@@ -1,6 +1,6 @@
 print("Hello F. World\nteste ESTÃO \"Teste aspas duplas\" ")#aspas duplas escapa caracter
 print("\n\n")
-print('Hello F. World teste \n\'aspas simples NÃO')#aspas simples não escapam. Mesmo padrão cd C++, PHP
+print('Hello F. World teste \n\'aspas simples NÃO\'')#aspas simples escapam.
 
 string1 = "Olá\nMundo\nLegal 'Teste aspas'"
 print(string1)
