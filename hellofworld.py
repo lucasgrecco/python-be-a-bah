@@ -8,7 +8,7 @@ print(string1)
 idade = 30
 nome = 'Grecco'
 
-print('Meu nome é %s e minha idaed é %d' %(nome, idade))#print de variáveis muito semelhante a C++
+print('Meu nome é %s e minha idaed é %d' %(nome, idade))#print de variáveis muito semelhante ao printf C++
 
 print('Teste de ' + 'concatenação')
 print('Teste de '+str(idade))#str converte a variavel para String (toString)
@@ -19,7 +19,7 @@ print('Print no caracter especifico da String ' + nome[3])
 print("Lists: ")
 ar_teste = [0,1,2,3,4,5,6]#Lists sao arrays
 print(ar_teste[2])
-ar_referencia = ar_teste#isso cria um ponteiro
+ar_referencia = ar_teste#isso cria um referencia
 print(ar_referencia[2])
 ar_copia = ar_teste.copy()#isso copia a lista
 ar_copia[2] = 'teste'
