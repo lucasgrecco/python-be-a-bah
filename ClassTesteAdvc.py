@@ -1,6 +1,5 @@
 from ClassTeste import ClassTeste
 
-
 class ClassTesteAdvc(ClassTeste):
 
     contador = 0
@@ -21,8 +20,3 @@ teste_avancado.print_cep()
 print(teste_avancado.contador)
 print(teste_avancado1.contador)
 print(teste_avancado2.contador)
-
-
-
-
-
